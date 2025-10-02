@@ -9,7 +9,11 @@ import colleague.User;
  */
 public interface ChatMediator {
 
-    void sendMessage(String message, User user);
+    void sendMessage(String message, User user); 
+    //Declara que o mediador deve ser capaz 
+    //de enviar uma mensagem em nome de um usuário.
 
-    void addUser(User user);
+    void addUser(User user); 
+    //Declara que o mediador deve permitir 
+    //que novos usuários entrem na comunicação.
 }

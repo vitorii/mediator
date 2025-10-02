@@ -5,6 +5,9 @@ import colleague.User;
 import java.util.ArrayList;
 import java.util.List;
 
+//Função: É a implementação concreta do ChatMediator. 
+//Representa a sala de bate-papo real que gerencia os usuários e a troca de mensagens.
+
 // A classe ChatRoom "assina o contrato" e promete seguir as regras de ChatMediator
 public class ChatRoom implements ChatMediator {
 

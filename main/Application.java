@@ -22,17 +22,17 @@ public class Application {
         chatRoom.addUser(user2);
         chatRoom.addUser(user3);
 
-        System.out.println("--- Início da Simulação ---");
+        System.out.println(" Início da Simulação ");
         
         // 4. Simula a comunicação: João envia uma mensagem
         // Note que João só precisa chamar seu próprio método de envio.
         user1.sendMessage("Olá a todos!");
 
-        System.out.println("\n--- Nova Mensagem ---");
+        System.out.println("\n Nova Mensagem");
 
         // 5. Simula outra comunicação: Carlos envia uma mensagem
-        user3.sendMessage("Oi, pessoal! Tudo bem?");
+        user3.sendMessage("Oi, pessoal! Tudo bem e vocês?");
         
-        System.out.println("\n--- Fim da Simulação ---");
+        System.out.println("\nFim da Simulação");
     }
 }
