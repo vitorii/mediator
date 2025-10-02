@@ -28,7 +28,7 @@ public class ChatRoom implements ChatMediator {
     @Override
     public void sendMessage(String message, User sender) {
         // Esta é a lógica principal!
-        // A sala de chat vai olhar cada usuário em sua lista...
+        // A sala de chat vai olhar cada usuário na lista...
         for (User user : this.users) {
             // ...e vai se perguntar: "Este usuário é a mesma pessoa que enviou a mensagem?"
             if (user != sender) {
